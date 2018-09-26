@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="578" height="200"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(188, 150);
+      context.quadraticCurveTo(288, 0, 388, 150);
+      // 二次贝赛尔曲线
+      // 以当前lineTo或者moveTo停留的点为起始点。 前两个参数决定控制点位置，后两个参数决定终点位置
+      context.lineWidth = 10;
+
+      // line color
+      context.strokeStyle = 'black';
+      context.stroke();
+    </script>
+  </body>
+</html>    

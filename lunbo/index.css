@@ -23,21 +23,24 @@
   color: aliceblue;
 }
 #wrap{
-  transition: 0.5s left;
-  width: 1920px;
+  width: 4000px;
   position: absolute;
+  transition: 0.5s left;
 }
 .box:nth-child(1){
-  background-color: brown;
-}
-.box:nth-child(2){
-  background-color: orange
-}
-.box:nth-child(3){
   background-color: blue
 }
+.box:nth-child(2){
+  background-color: brown;
+}
+.box:nth-child(3){
+  background-color: orange
+}
 .box:nth-child(4){
-  background-color: green
+  background-color: blue
+}
+.box:nth-child(5){
+  background-color: brown
 }
 .dotGroup li{
   display: inline-block;
