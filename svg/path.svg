@@ -1,0 +1,12 @@
+<svg width="100px" height="100px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  
+  <path d="M10 10 H 90 V 90 H 10 Z" fill="transparent" stroke="black"/>
+  <!-- M表示移动点 moveTo  H 表示水平线 接受一个参数x  V 表示绘制垂直线   Z 表示闭合路径命令 接受一个参数   大写字母表示觉得定位，小写字母表示相对定位 fill 填充  stroke 描边 -->
+
+  <!-- Points -->
+  <circle cx="10" cy="10" r="2" fill="red"/>
+  <circle cx="90" cy="90" r="2" fill="red"/>
+  <circle cx="90" cy="10" r="2" fill="red"/>
+  <circle cx="10" cy="90" r="2" fill="red"/>
+
+</svg>
